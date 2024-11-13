@@ -1,0 +1,22 @@
+body {
+    background-color: black; /* Sets the background color of the page to black */
+}
+
+h1 {
+    text-transform: uppercase; /* Transforms the text in the heading to uppercase */
+    font-size: 3rem; /* Sets the font size of the heading to 3rem */
+}
+
+.poster {
+    width: 50%; /* Sets the width of the element with the .poster class to 50% */
+    margin-left: 25%; /* Adds a left margin of 25% to the element with the .poster class, centering it */
+    margin-top: 100px; /* Adds a top margin of 100 pixels to the element with the .poster class */
+    color: white; /* Sets the text color of the element with the .poster class to white */
+    font-family: "Libre Baskerville", serif; /* Sets the font family of the element with the .poster class to "Libre Baskerville", and uses serif as a fallback */
+    text-align: center; /* Centers the text inside the element with the .poster class */
+}
+
+.image {
+    border: 5px solid white; /* Adds a 5-pixel-wide solid white border around the element with the .image class */
+    width: 100%; /* Sets the width of the element with the .image class to 100% */
+}

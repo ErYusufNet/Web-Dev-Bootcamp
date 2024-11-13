@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+
+/* This rule styles the .flag class, which is the main container for the flag.
+   - background-color: Sets the flag's background color to #CE1126, which is a shade of red.
+   - width: The width of the flag is set to 900px.
+   - height: The height of the flag is set to 600px, maintaining a 3:2 aspect ratio typical of flags.
+   - position: relative; Ensures that child elements can be positioned relative to this container. */
+   .flag {
+    background-color: #CE1126;
+    width: 900px;
+    height: 600px;
+    position: relative;
+}
+
+/* This rule targets the direct child div inside the .flag container.
+   - width: Sets the width to 100%, making this div span the entire width of the flag.
+   - height: Sets the height to 300px, creating a horizontal band.
+   - background-color: #002868; Sets the background color to a shade of blue, representing the middle stripe.
+   - position: absolute; Allows precise positioning within the .flag container.
+   - top: 150px; Positions the top of this div 150px from the top of the .flag container, centering it vertically. */
+.flag > div {
+    width: 100%;
+    height: 300px;
+    background-color: #002868;
+    position: absolute;
+    top: 150px;
+}
+
+/* This rule targets the inner div inside the middle band of the flag.
+   - background-color: white; Sets the background color to white, creating the circular element.
+   - width: Sets the width to 200px, making this div a square initially.
+   - height: Sets the height to 200px, matching the width to form a square.
+   - border-radius: 50%; Converts the square into a circle by making the corners fully rounded.
+   - position: relative; Allows positioning relative to its containing div (the blue band).
+   - top: 50px; Moves the circle 50px down from the top of the blue band.
+   - left: 350px; Moves the circle 350px from the left edge of the blue band, centering it horizontally. */
+.flag > div > div {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 350px;
+}
+
+/* This rule styles the p (paragraph) elements globally.
+   - margin: 0; Removes any default margin around the paragraph to prevent extra spacing.
+   - font-size: 5rem; Sets the font size to 5 rem units, making the text large and prominent.
+   - text-align: center; Centers the text horizontally within its containing element.
+   - color: white; Sets the text color to white, ensuring readability against the red background. */
+p {
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+
+/* This rule specifically targets p elements that are inside the blue div (the middle band).
+   - color: black; Overrides the global text color, setting it to black for better contrast 
+   against the white circle background. */
+.flag > div p {
+    color: black;
+}
+
+
+</style>
+
+<body>
+    <div class="flag">
+        <p>The Flag</p>
+        <div>
+            <div>
+                <p>
+                    of Laos
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

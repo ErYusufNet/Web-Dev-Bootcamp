@@ -1,0 +1,9 @@
+.redtext{
+    color:red;
+}
+#main{
+    color:aqua;
+}
+p[draggable]{
+    color:red;
+}

@@ -1,0 +1,49 @@
+div{
+    height: 200px;
+    width: 200px;
+
+
+
+
+}
+
+#first{
+    background-color: aquamarine;
+    padding: 20px;
+    border: 10px solid black;
+    /*this is how we add border and color to the border 
+    
+    */
+   
+    margin-right: 50px;
+
+}
+
+
+
+#second{
+    background-color: brown;
+    border: solid black;
+    border-width: 20px 10px;
+    margin-left: 260px;
+    
+    
+}
+
+
+
+
+
+#third{
+    background-color: chartreuse;
+    border: 10px solid black;
+    margin-left: 40px;
+
+
+
+}
+p{
+    margin: 0;
+
+
+}

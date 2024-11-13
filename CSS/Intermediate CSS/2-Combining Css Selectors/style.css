@@ -1,0 +1,34 @@
+/* The h1 and h2 tags are selected and given a blue-violet (blueviolet) color. 
+   This ensures that both the main and secondary headings share the same color. */
+   h1, h2 {
+    color: blueviolet;
+}
+
+/* The first p (paragraph) element inside the div with the class .box 
+   is targeted and given a firebrick color. 
+   This applies the style only to the first p element within the .box div. */
+.box > p {
+    color: firebrick;
+}
+
+/* All li (list item) elements inside the div with the class .box 
+   are selected and given a blue color. 
+   This styling is specific to li elements within the .box div. */
+.box li {
+    color: blue;
+}
+
+/* The li.done selector targets all li elements that have the class "done" 
+   and applies a sea green (seagreen) color. 
+   This is used to visually distinguish tasks that have been completed. */
+li.done {
+    color: seagreen;
+}
+/* The p (paragraph) element with the class "done" that is nested inside a ul (unordered list) 
+   is selected and given a smaller font size of 0.5rem. 
+   This reduces the text size, typically to de-emphasize the content of completed items. */
+   ul p.done {
+    font-size: 0.5rem;
+}
+
+

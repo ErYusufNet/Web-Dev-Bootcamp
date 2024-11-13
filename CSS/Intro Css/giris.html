@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Giris</title>
+
+    <style>
+        /* Element Selector: Applies styles to all <h1> elements */
+        h1 {
+            color: blue;
+        }
+
+        /* Class Selector: Applies styles to elements with the class "redtext" */
+        .redtext {
+            color: red;
+        }
+
+        /* Class Selector: Applies styles to elements with the class "h3x1" */
+        .h3x1 {
+            font-size: 24px;
+        }
+
+        /* ID Selector: Applies styles to the element with the ID "main" */
+        #main {
+            font-weight: bold;
+        }
+
+        /* Attribute Selector: Applies styles to elements with the attribute draggable set to "true" */
+        [draggable="true"] {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1> <!-- Element Selector: Styles all <h1> elements with blue color -->
+    <h1>we will learn css selectors</h1> <!-- Element Selector: Styles all <h1> elements with blue color -->
+    <h1>I hope you will enjoy</h1> <!-- Element Selector: Styles all <h1> elements with blue color -->
+    
+    <h2 class="redtext">its a class</h2> <!-- Class Selector: Styles elements with the "redtext" class with red color -->
+    
+    <h3 class="h3x1">Hello to you</h3> <!-- Class Selector: Styles elements with the "h3x1" class with 24px font size -->
+    
+    <h4 id="main">this is other way to select element</h4> <!-- ID Selector: Styles the element with the ID "main" with bold font weight -->
+    
+    <p draggable="true">last selector</p> <!-- Attribute Selector: Styles elements with the draggable="true" attribute with yellow background -->
+    
+    <!--
+        Element Selector: Targets specific HTML elements by name (e.g., <h1>, <p>).
+        
+        Class Selector: Targets elements that have a specific class attribute. The .redtext and .h3x1 classes are examples where multiple elements could share the same styling.
+        
+        ID Selector: Targets an element with a unique ID attribute. The #main ID is used to style a single element.
+        
+        Attribute Selector: Targets elements based on a specific attribute, like the [draggable="true"] attribute in the <p> element.
+    -->
+</body>
+</html>

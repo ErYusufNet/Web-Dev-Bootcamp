@@ -1,0 +1,27 @@
+h1{
+    font-family:'Architect Daughter', cursive;
+
+}
+#helvetica{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#arial{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#serif{
+    font-family: serif;
+}
+#sans-serif{
+    font-family: sans-serif;
+}
+#cursive{
+    font-family: cursive;
+}
+#monospace{
+    font-family: monospace;
+}
+#fantasy{
+    font-family: fantasy;
+}

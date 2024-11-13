@@ -1,0 +1,55 @@
+/* 
+  .grid-container sınıfı, bir grid (ızgara) düzenini tanımlamak için kullanılır. 
+  Grid düzeni, içindeki öğeleri satır ve sütunlara yerleştirmenizi sağlar. 
+  Bu, özellikle karmaşık sayfa düzenleri oluştururken kullanışlıdır.
+*/
+.grid-container {
+    /* 
+      display: grid; özelliği, .grid-container elemanını bir grid konteyneri yapar.
+      Bu, içindeki elemanların grid (satır ve sütun) yapısına göre düzenlenmesini sağlar.
+    */
+    display: grid;
+
+    /* 
+      grid-template-columns: 1fr 1fr; özelliği, grid konteynerinin sütunlarını tanımlar.
+      Burada 1fr, 'fractional unit' (fraksiyonel birim) anlamına gelir ve bu,
+      iki eşit genişlikte sütun oluşturur. Yani, grid konteynerinin genişliği
+      ne olursa olsun, iki sütun bu genişliği eşit olarak paylaşır.
+    */
+    grid-template-columns: 1fr 1fr;
+
+    /* 
+      grid-template-rows: 100px 200px 200px; özelliği, grid konteynerinin satırlarını tanımlar.
+      Bu özellik ile üç satır tanımlanmıştır. İlk satır 100px, ikinci satır 200px ve
+      üçüncü satır 200px yüksekliğe sahip olacaktır.
+    */
+    grid-template-rows: 100px 200px 200px;
+
+    /* 
+      gap: 30px; özelliği, grid öğeleri arasındaki boşluğu (satır ve sütunlar arasındaki boşluk) tanımlar.
+      Burada, her iki yönde de (hem yatay hem de dikey olarak) 30px boşluk bırakılır.
+    */
+    gap: 30px;
+}
+
+/* 
+  .first sınıfı, grid içindeki belirli bir öğeye uygulanır ve bu öğenin grid'de nasıl yerleştirileceğini belirler.
+*/
+.first {
+    /* 
+      grid-column: span 2; özelliği, bu öğenin iki sütunu birden kaplamasını sağlar.
+      Yani, bu öğe, kendisinden sonraki sütunu da kapsayacak şekilde genişleyecektir.
+    */
+    grid-column: span 2;
+}
+
+/* 
+  .card sınıfı, belirli bir öğeye arka plan rengi uygulanmasını sağlar.
+*/
+.card {
+    /* 
+      background-color: blue; özelliği, öğenin arka plan rengini mavi yapar.
+      Bu, öğenin arka planının tamamen mavi olarak görünmesini sağlar.
+    */
+    background-color: blue;
+}
