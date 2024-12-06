@@ -3,6 +3,7 @@
 }
 #main{
     color:aqua;
+    background-color: aliceblue;
 }
 p[draggable]{
     color:red;

@@ -13,7 +13,7 @@
 
 /* All li (list item) elements inside the div with the class .box 
    are selected and given a blue color. 
-   This styling is specific to li elements within the .box div. */
+   This styling is specific to li elements within the .box div. xd*/
 .box li {
     color: blue;
 }
@@ -28,7 +28,7 @@ li.done {
    is selected and given a smaller font size of 0.5rem. 
    This reduces the text size, typically to de-emphasize the content of completed items. */
    ul p.done {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 
